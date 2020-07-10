@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sekolahvirtualparangloe">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".tampiltengahsma"></activity>
+        <activity android:name=".tampiltengahsmp" />
+        <activity android:name=".tampilbelakangsma" />
+        <activity android:name=".tampilbelakangsmp" />
+        <activity android:name=".tampilkirisma" />
+        <activity android:name=".tampilkirismp" />
+        <activity android:name=".tampilkanansma" />
+        <activity android:name=".tampilkanansmp" />
+        <activity android:name=".tampildepansma" />
+        <activity android:name=".tampildepansmp" />
+        <activity android:name=".tampilbelakangsd" />
+        <activity android:name=".tampilkanansd" />
+        <activity android:name=".tampiltengahsd" />
+        <activity android:name=".tampilkirisd" />
+        <activity android:name=".tampildepansd" />
+        <activity android:name=".prosestampildepansd"/>
+        <activity android:name=".prosestampildepansma"/>
+        <activity android:name=".prosestampildepansmp"/>
+        <activity android:name=".prosestampilkirisd"/>
+        <activity android:name=".prosestampilkirisma"/>
+        <activity android:name=".prosestampilkirismp"/>
+        <activity android:name=".prosestampiltengahsd"/>
+        <activity android:name=".prosestampiltengahsma"/>
+        <activity android:name=".prosestampiltengahsmp"/>
+        <activity android:name=".prosestampilkanansd"/>
+        <activity android:name=".prosestampilkanansma"/>
+        <activity android:name=".prosestampilkanansmp"/>
+        <activity android:name=".prosestampilbelakangsmp"/>
+        <activity android:name=".prosestampilbelakangsd"/>
+        <activity android:name=".prosestampilbelakangsma"/>
+        <activity android:name=".bantuan" />
+        <activity android:name=".keluar" />
+        <activity android:name=".tentang" />
+        <activity android:name=".datasmapar" />
+        <activity android:name=".dataspandu" />
+        <activity android:name=".datasdpeo" />
+        <activity android:name=".vrsmapar" />
+        <activity android:name=".vrspandu" />
+        <activity android:name=".vrsdpeo" />
+        <activity android:name=".virtualsekolah" />
+        <activity android:name=".datasekolah" />
+        <activity android:name=".sekolah" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout11"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbackground"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".vrspandu">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:padding="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/headersmpputih" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="-5dp"
+            android:layout_marginEnd="-5dp"
+            android:background="@drawable/styleheaderbiru"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="VIRTUAL SEKOLAH"
+            android:textColor="#303F9F"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp">
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout32"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/styleheaderbiru"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button2">
+
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/styleheaderbiru"
+                    android:padding="5dp"
+                    android:src="@drawable/logotopismp" />
+
+                <Button
+                    android:id="@+id/btndepansmp"
+                    android:layout_width="220dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/bgbulatbiru"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="            HALAMAN DEPAN            "
+                    android:textColor="#FFFFFF"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout33"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/styleheaderbiru"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout32">
+
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/styleheaderbiru"
+                    android:padding="5dp"
+                    android:src="@drawable/logotopismp" />
+
+                <Button
+                    android:id="@+id/btnkirismp"
+                    android:layout_width="220dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/bgbulatbiru"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="               HALAMAN KIRI                "
+                    android:textColor="#FFFFFF"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout34"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/styleheaderbiru"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout33">
+
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/styleheaderbiru"
+                    android:padding="5dp"
+                    android:src="@drawable/logotopismp" />
+
+                <Button
+                    android:id="@+id/btntengahsmp"
+                    android:layout_width="220dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/bgbulatbiru"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="          HALAMAN TENGAH           "
+                    android:textColor="#FFFFFF"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout35"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/styleheaderbiru"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout34">
+
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/styleheaderbiru"
+                    android:padding="5dp"
+                    android:src="@drawable/logotopismp" />
+
+                <Button
+                    android:id="@+id/btnkanansmp"
+                    android:layout_width="220dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/bgbulatbiru"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="            HALAMAN KANAN            "
+                    android:textColor="#FFFFFF"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout36"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/styleheaderbiru"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout35">
+
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/styleheaderbiru"
+                    android:padding="5dp"
+                    android:src="@drawable/logotopismp" />
+
+                <Button
+                    android:id="@+id/btnbelakangsmp"
+                    android:layout_width="220dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/bgbulatbiru"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="       HALAMAN BELAKANG         "
+                    android:textColor="#FFFFFF"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
